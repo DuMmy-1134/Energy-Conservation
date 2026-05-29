@@ -1,0 +1,246 @@
+/* General Styling for All pages */
+.sub-heading {
+  text-align: center;
+  font-size: 2.5em;
+}
+.small-tips {
+  width: 90%;
+  height: 100%;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.03),
+    0 20px 40px -4px rgba(0, 0, 0, 0.06);
+  margin: 2rem auto;
+  border-radius: 20px;
+  padding: 30px 0;
+  background-color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.small-tips .sub-heading {
+  font-size: 2.5em;
+}
+.button {
+  text-decoration: none;
+  background-color: #ffbc42;
+  padding: 8px 20px;
+  border-radius: 16px;
+  color: white;
+}
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+.my-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
+.my-image .bg-img {
+  border-radius: 100%;
+  margin: auto;
+}
+hr {
+  width: 85%;
+  margin: 50px auto;
+}
+.goals h2,
+.list-items {
+  margin: auto;
+  text-align: center;
+}
+.energy-demand h2 {
+  text-align: left;
+  font-size: 3em;
+  margin: 70px 0 0 64px;
+}
+.grid-item h2 {
+  text-align: center;
+  font-size: 1.6em;
+}
+.energy-demand-text {
+  margin: 20px 0 0 10px;
+  width: 85%;
+}
+/* Cards */
+
+.cards > .grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px 10px 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: -13px -9px 13px -6px rgba(0, 0, 0, 0.28);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.card-title,
+.cards .grid-item > p {
+  text-align: left;
+  max-height: 300px;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.card-title {
+  font-size: 1.5em;
+  margin: 10px auto;
+}
+
+/* hovering effects */
+.cards > .grid-item:hover,
+.column-item:hover,
+.small-tips:hover,
+.list-items li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.related-articles:hover {
+  transform: translateX(6px); /* Gently slides the card to the right */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* Deepens the shadow */
+  cursor: pointer;
+}
+.data-centres img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+svg:hover,
+.tip p:hover {
+  color: #ffbc42;
+}
+.nav-item:hover {
+  color: #ffbc42;
+}
+/* Articles */
+.related-articles {
+  width: 75%;
+  margin: 0 auto 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  border-left: 7px solid #ffbc42;
+  transition:
+    transform 0.3s cubic-bezier(0.25, 1, 0.5, 1),
+    box-shadow 0.3s ease;
+}
+
+/* About me */
+.my-image h3 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.goals li {
+  list-style: none;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 1.2em;
+  border-left: solid 7px #ffbc42;
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 20px 20px;
+  background-color: #fff;
+  box-shadow: -13px -9px 13px -6px rgba(0, 0, 0, 0.28);
+  transition: transform 0.2s ease;
+}
+
+.about-me {
+  max-width: 500px;
+}
+
+.about-me h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+/* Video and Resources Sections */
+.graphics {
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* Images */
+.graphics img {
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+.data-centres img {
+  width: 100%;
+
+  border-radius: 16px;
+  box-shadow: -13px -9px 13px -6px rgba(0, 0, 0, 0.28);
+  transition: transform 0.2s ease;
+}
+.column-item {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: -13px -9px 13px -6px rgba(0, 0, 0, 0.28);
+  transition: transform 0.2s ease;
+}
+.tip img {
+  width: 30px;
+  height: 30px;
+}
+.bg-img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  height: 100%;
+  border-radius: 16px;
+}
+.img-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.threat-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.item h3,
+.item p {
+  width: 90%;
+  text-align: left;
+}
+
+.tip {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.tip p {
+  text-align: center;
+}
+
+.my-vision-text {
+  font-size: 1.3em;
+}
+
+.global-threats h3 {
+  text-align: center;
+}
+.resources {
+  width: 80%;
+  margin: auto;
+}
+.resources li {
+  list-style: none;
+  margin: 20px 0;
+}
